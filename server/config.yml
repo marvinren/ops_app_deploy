@@ -1,0 +1,13 @@
+app:
+  name: deploy
+  version: 1.0
+server:
+  address: 0.0.0.0:8089
+log:
+  path: /tmp/log/ops_app_deploy
+  level: 5
+  stdout: true
+database:
+  driver: sqlite3
+  url: ./test.db
+  debug: true
